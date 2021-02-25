@@ -1,0 +1,6 @@
+framework module FCAPIKit {
+  umbrella header "FCAPIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

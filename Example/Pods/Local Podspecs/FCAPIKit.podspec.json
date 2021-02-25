@@ -1,0 +1,27 @@
+{
+  "name": "FCAPIKit",
+  "version": "0.1.0",
+  "summary": "A short description of FCAPIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/2585299617@qq.com/FCAPIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2585299617@qq.com": "2585299617@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/2585299617@qq.com/FCAPIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FCAPIKit/Classes/**/*",
+  "dependencies": {
+    "CTNetworking": [
+
+    ]
+  }
+}

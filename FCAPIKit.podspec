@@ -32,6 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'FCAPIKit/Classes/**/*'
   
+  s.dependency 'CTNetworking'
+  
   # s.resource_bundles = {
   #   'FCAPIKit' => ['FCAPIKit/Assets/*.png']
   # }

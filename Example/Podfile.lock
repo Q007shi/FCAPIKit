@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CocoaDebug (1.6.3)
+  - CTMediator (44)
+  - CTNetworking (15):
+    - AFNetworking
+    - CTMediator
+  - FCAPIKit (0.1.0):
+    - CTNetworking
+
+DEPENDENCIES:
+  - CocoaDebug
+  - FCAPIKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CocoaDebug
+    - CTMediator
+    - CTNetworking
+
+EXTERNAL SOURCES:
+  FCAPIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CocoaDebug: 188ea707c3728402e16efffa8d309a4704f1c59a
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+  CTNetworking: 53a7fd1d39bce85c15af471890037b4608b7124b
+  FCAPIKit: 24ce99948e66583e937842c8113bd2846a75487e
+
+PODFILE CHECKSUM: 4f1d3b8ba55a2253bc4e8bc41514a1f91de2f42c
+
+COCOAPODS: 1.10.1
